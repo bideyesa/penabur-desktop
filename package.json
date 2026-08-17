@@ -17,6 +17,10 @@
   "build": {
     "appId": "com.penabur.app",
     "productName": "Penabur",
+    "directories": {
+      "buildResources": "build"
+    },
+    "publish": null,
     "win": { "target": "nsis" },
     "mac": { "target": "dmg" }
   }
